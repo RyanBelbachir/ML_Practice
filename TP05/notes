@@ -1,1 +1,3 @@
 le but de la régularisation : diminuer la variance et augmenter le biais
+ANOVA ne prend pas la corélation entre les caractéristiques, sélectionne les attributs les plus adéquats à la sortie
+FFS le fait, et selectionne les meilleurs attributs adéquats à l'algorithme

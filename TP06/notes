@@ -1,0 +1,7 @@
+In the training :
+    -> Soft margin : les attributs qui sont dans la marge ne sont pas considérés J = C/2M Somme(max(0,1-y(i)*z(i)))
+    -> Hard margin : les attributs qui sont dans la marge sont considérés comme des erreurs J = C/2M Somme(1-y(i)*z(i))
+
+Hard margin avec tolérance => Boucle infini
+Hard margin a un problème de convergence car il y a toujours une erreur
+SVM est dédiée pour le classement binaire donc on doit utiliser le One VS Rest ou le One VS One pour le multi class
